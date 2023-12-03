@@ -4,6 +4,7 @@ import Features from "./sections/Features";
 import About from "./sections/About";
 import Works from "./sections/Works";
 import Categories from "./sections/Categories";
+import Portfolio from "./sections/Portfolio";
 
 const theme = createTheme({
 	palette: {
@@ -25,6 +26,7 @@ function App() {
 				<About />
 				<Works />
 				<Categories />
+				<Portfolio />
 			</ThemeProvider>
 		</>
 	);
