@@ -2,6 +2,8 @@ import { createTheme, ThemeProvider } from "@mui/material";
 import Header from "./sections/Header";
 import Features from "./sections/Features";
 import About from "./sections/About";
+import Works from "./sections/Works";
+import Categories from "./sections/Categories";
 
 const theme = createTheme({
 	palette: {
@@ -21,6 +23,8 @@ function App() {
 				<Header />
 				<Features />
 				<About />
+				<Works />
+				<Categories />
 			</ThemeProvider>
 		</>
 	);
