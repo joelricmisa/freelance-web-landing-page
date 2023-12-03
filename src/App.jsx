@@ -1,6 +1,7 @@
-import Header from "./sections/Header";
 import { createTheme, ThemeProvider } from "@mui/material";
-
+import Header from "./sections/Header";
+import Features from "./sections/Features";
+import About from "./sections/About";
 
 const theme = createTheme({
 	palette: {
@@ -18,6 +19,8 @@ function App() {
 		<>
 			<ThemeProvider theme={theme}>
 				<Header />
+				<Features />
+				<About />
 			</ThemeProvider>
 		</>
 	);
